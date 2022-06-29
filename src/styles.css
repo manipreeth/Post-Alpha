@@ -1,0 +1,147 @@
+body{
+  margin:0px;
+  padding:0px;
+  background-image: linear-gradient(to right, purple , yellow);
+}
+
+
+/* Signup form in signup signup component */
+.signupform{
+  margin: 40px 30%;
+  padding: 10px;
+  border: 2px solid silver;
+  background-color: green;
+  color:white;
+  border-radius: 20px;
+  box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* Submit button in signup component */
+.submitbutton{
+  background-color:blue;
+  border:1px solid blue;
+  color:white;
+  border-radius: 40px;
+  padding: 3px 20px;
+}
+
+
+/* Navigation Bar */
+nav {
+  background-color: white;
+  padding: 17px;
+  margin-bottom: 30px;
+}
+/* Navigation links */
+nav a{
+  text-decoration : none;
+  color: blue;
+  padding: 10px;
+  margin-left: 190px
+}
+/* Active Navigation bar  */
+nav a.active{
+  text-decoration : none;
+  font-weight:bold;
+  padding: 14px;
+  background-color: whitesmoke;
+  color: orange;
+  border-radius: 15%;
+}
+
+
+/* Home Component */
+.home{
+  padding: 10px;
+  margin: 40px auto;
+  background-color:white;
+  width: 900px;
+  border-radius: 5px;
+}
+/* Textarea in home component */
+textarea{
+  width: 880px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+/* Post button in home component */
+#postbutton{
+  background-color:green;
+  color:white;
+  font-weight:bold;
+  padding: 5px 50px;
+  margin: 5px 340px;
+  border:1px solid green;
+  border-radius: 30px;
+}
+
+
+/* Mypost Component */
+.myposts{
+  margin: 10px 200px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+/* Individual post */
+.post{
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid silver;
+  border-radius: 5px;  
+}
+/* Delete All Posts Button */
+.delpost{
+  margin-left: 550px; 
+  background-color:red;
+  border:1px solid red;
+}
+
+
+/* Profile Component */
+.profile{
+  margin: 100px 400px;
+  padding: 10px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+/* Profile details alignment */
+#name { margin-right: 45px; }
+#email{ margin-right: 20px; }
+#pswd { margin-right: 60px; }
+#mble { margin-right: 80px; }
+#dob  { margin-right: 30px; }
+#gender{ margin-right: 80px; }
+
+
+/* Logout component */
+.logout{
+  margin: 150px 450px ;
+  background-color:white;
+  padding: 20px;
+  border-radius: 25px;
+}
+/* Yes button in logout component */
+.yes{
+  margin: 10px;
+  margin-left: 15px;
+  background-color:red;
+  border:1px solid red;
+}
+/* No button in logout component */
+.no{
+  padding: 5px 50px;
+  border-radius: 20px;
+  font-weight:bold;
+}
+
+.signinform{
+  margin: 10% 35%;
+}
+
+.login{
+  padding: 5px 87px;
+  margin: 5px;
+}
+.loginformbuttons{
+  margin-left: 60px
+}
